@@ -181,6 +181,9 @@ Or build both:
 make BUILD_CUDA=1 BUILD_OPENCL=1
 ```
 
+###example
+cubitcrack.exe -c -u --keyspace 40000000000:7ffffffffff -d 0 -b 25 -t 512 -p 1024 -i 125.txt -o out.txt
+
 ### Supporting this project
 
 If you find this project useful and would like to support it, consider making a donation. Your support is greatly appreciated!
@@ -194,3 +197,5 @@ If you find this project useful and would like to support it, consider making a 
 ### Contact
 
 Send any questions or comments to bitcrack.project@gmail.com
+
+
